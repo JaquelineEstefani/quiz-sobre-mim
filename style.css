@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box; 
+}
+ body{
+    background-color: #FDF6F0;
+    color: #D8A7B1;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+ }
+
+ header{
+    padding: 2rem;
+    background-color: #A26769;
+    text-align: center;
+ }
+
+main{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+ section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ }
+
+ h2{
+    color:#3D3D3D;
+    font-size: 1.2rem;
+}
+
+input[type="radio"],input[type="checkbox"] {
+    accent-color: #A26769;
+}
+
+input[type="text"]:, input[type="date"]:focus
+{
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #A26769;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+    transition:0.3s ease;
+
+}
+input::placeholder{
+    color: #3D3D3D;
+}
+
+img{
+    width: 8.5rem;
+    float: left;
+    border-radius: 2px;
+
+
+}
+
+
+
+
+footer{
+
+color: #3D3D3D;
+}
+
